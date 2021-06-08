@@ -1,0 +1,33 @@
+[[package]]
+name = "aiostalk"
+version = "1.0"
+description = "A Python 3 asyncio client for the beanstalkd work queue"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+greenstalk = "*"
+
+[[package]]
+name = "greenstalk"
+version = "2.0.0"
+description = "A Python 3 client for the beanstalkd work queue"
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.7"
+content-hash = "3ce52fbe48bf1fdc25c677d7e3cad4f54153cea594da2b445eedc286238d29d3"
+
+[metadata.files]
+aiostalk = [
+    {file = "aiostalk-1.0-py3-none-any.whl", hash = "sha256:740d4967825a58d7c88a2cb2e44fe766ec95eb5505bc8e343e7954bacfc705c3"},
+    {file = "aiostalk-1.0.tar.gz", hash = "sha256:1b88e8809d7726af9fde87c6e36af39d07ddaba6d8df32a83eaa6ae5ee4e4ab5"},
+]
+greenstalk = [
+    {file = "greenstalk-2.0.0-py3-none-any.whl", hash = "sha256:ec29d83a4fa372f577d1aa8d523bf431f03a270480a3e5e123f7986de2adaa75"},
+    {file = "greenstalk-2.0.0.tar.gz", hash = "sha256:0020970abdb6f400586938573cbbec80410e83805d61e46cf76ea3ed71129257"},
+]

@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  queue:
+    image: 1maa/beanstalkd
+    ports:
+      - "11300:11300"
